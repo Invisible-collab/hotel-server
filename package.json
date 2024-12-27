@@ -1,0 +1,28 @@
+{
+  "name": "hotel-server",
+  "version": "1.0.0",
+  "description": "server-side development for hotel application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "invisible team",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.2",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophiell27/hotel-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sophiell27/hotel-server/issues"
+  },
+  "homepage": "https://github.com/sophiell27/hotel-server#readme"
+}
