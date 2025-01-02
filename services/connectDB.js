@@ -5,6 +5,7 @@ require("dotenv").config({
 
 const connectDB = async () => {
 	try {
+		const dbConnectionString = process.env.DATABASE_URL.replace("<password>", process.env.DATABASE_PASSWORD);
 		const conn = await mongoose.connect(dbConnectionString);
 		console.log(`MongoDB Connected: ${conn.connection.host}`);
 	} catch (error) {
